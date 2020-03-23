@@ -2,7 +2,7 @@ import { connect } from "react-redux";
 import { CampaignTable } from "../components/CampaignTable.jsx";
 import withLoader from "../components/WithLoader";
 
-const mapStateToProps = ({
+export const mapStateToProps = ({
   campaignReducer: { startDate, endDate, searchText, records },
   userReducer: { users, isLoading }
 }) => ({
@@ -13,5 +13,4 @@ const mapStateToProps = ({
   users,
   isLoading
 });
-
 export default connect(mapStateToProps)(withLoader(CampaignTable));

@@ -2,7 +2,7 @@ import { connect } from "react-redux";
 import { DateRangeSelector } from "../components/DateRangeFilter.jsx";
 import { setStartDate, setEndDate } from "../actions/Campaigns";
 
-const mapStateToProps = ({
+export const mapStateToProps = ({
   campaignReducer: { startType, endType, startDate, endDate }
 }) => ({
   startType,
@@ -11,7 +11,7 @@ const mapStateToProps = ({
   endDate
 });
 
-const mapDispatchToProps = dispatch => {
+export const mapDispatchToProps = dispatch => {
   return {
     setStartDate: date => dispatch(setStartDate(date)),
     setEndDate: date => dispatch(setEndDate(date))

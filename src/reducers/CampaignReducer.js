@@ -12,7 +12,7 @@ const initialState = {
       id: 1,
       name: "Divavu",
       startDate: "09/19/2019",
-      endDate: "03/19/2020",
+      endDate: "03/31/2020",
       Budget: 88377,
       userId: 3
     },

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Campaign Campaign Table display component should not regress 1`] = `
+<div>
+  <div
+    className="position-center flex-dir-row mr-5"
+  >
+    <div>
+      <input
+        className="m-8"
+        max="Invalid date"
+        name="start"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="Start Date"
+        type="text"
+        value=""
+      />
+      <input
+        className="m-8"
+        min="Invalid date"
+        name="end"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder="End Date"
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <input
+        className="m-8"
+        onChange={[Function]}
+        placeholder="Search by Name"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="position-center"
+  >
+    <p>
+      Loading...
+    </p>
+  </div>
+</div>
+`;
