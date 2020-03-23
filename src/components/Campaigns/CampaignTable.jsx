@@ -1,11 +1,8 @@
 import React from "react";
 import moment from "moment";
-import { kFormatter, filterRecords } from "../../utils/campaign";
+import { kFormatter } from "../../utils/campaign";
 export const CampaignTable = props => {
-  const { records, users } = props;
-
-  const filteredRecords = filterRecords([...records], props);
-
+  const { filteredRecords, users } = props;
   return (
     <div>
       <table className="campaign-data-tbl">

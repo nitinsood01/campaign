@@ -6,7 +6,9 @@ export const kFormatter = num =>
 
 export const filterRecords = (
   filteredRecords,
-  { startDate, endDate, searchText }
+  startDate,
+  endDate,
+  searchText
 ) =>
   filteredRecords.filter(record => {
     const nameMatched = record.name
