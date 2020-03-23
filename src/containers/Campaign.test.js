@@ -4,9 +4,9 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import logger from "redux-logger";
 import thunk from "redux-thunk";
-import { mapDispatchToProps } from "../../containers/Campaign";
-import reducers from "../../reducers";
-import Campaign from "../../containers/Campaign";
+import { mapDispatchToProps } from "./Campaign";
+import reducers from "../reducers";
+import Campaign from "./Campaign";
 
 describe("Campaign", () => {
   describe("mapDispatchToProps", () => {

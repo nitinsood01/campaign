@@ -1,4 +1,4 @@
-import { mapStateToProps } from "../../containers/SearchCampaignFilter";
+import { mapStateToProps } from "./SearchCampaignFilter";
 
 describe("Search Campaign component", () => {
   describe("Search Campaign container", () => {

@@ -1,7 +1,7 @@
 import renderer from "react-test-renderer";
 import React from "react";
-import { mapStateToProps } from "../../containers/CampaignTable";
-import { CampaignTable } from "../../components/CampaignTable.jsx";
+import { mapStateToProps } from "./CampaignTable";
+import { CampaignTable } from "../components/CampaignTable.jsx";
 describe("Campaign Table", () => {
   describe("Campaign Table container", () => {
     describe("mapStateToProps", () => {

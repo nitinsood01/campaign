@@ -1,4 +1,4 @@
-import { mapStateToProps } from "../../containers/DateRangeFilter";
+import { mapStateToProps } from "./DateRangeFilter";
 
 describe("Campaign Table  component", () => {
   describe("Campaign Table container", () => {
