@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
-import { Campaign } from "../components/Campaign.jsx";
-import { addCampaigns } from "../actions/Campaigns";
-import { getUsers } from "../actions/Users";
+import { Campaign } from "../../components/Campaigns/Campaign.jsx";
+import { addCampaigns } from "../../actions/Campaigns";
+import { getUsers } from "../../actions/Users";
 
 export const mapDispatchToProps = dispatch => {
   return {

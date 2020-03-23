@@ -1,6 +1,6 @@
 import React from "react";
 import moment from "moment";
-import { kFormatter, filterRecords } from "../utils/campaign";
+import { kFormatter, filterRecords } from "../../utils/campaign";
 export const CampaignTable = props => {
   const { records, users } = props;
 

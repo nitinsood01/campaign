@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
-import { CampaignTable } from "../components/CampaignTable.jsx";
-import withLoader from "../components/WithLoader";
+import { CampaignTable } from "../../components/Campaigns/CampaignTable.jsx";
+import withLoader from "../../components/WithLoader";
 
 export const mapStateToProps = ({
   campaignReducer: { startDate, endDate, searchText, records },
