@@ -2,7 +2,6 @@ import { connect } from "react-redux";
 import { CampaignTable } from "../../components/Campaigns/CampaignTable.jsx";
 import withLoader from "../../components/WithLoader";
 import { filterRecords } from "../../utils/campaign";
-// const filteredRecords = filterRecords([...records], props);
 
 export const mapStateToProps = ({
   campaignReducer: { startDate, endDate, searchText, records },
