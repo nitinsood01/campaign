@@ -1,4 +1,3 @@
-import React from "react";
 import { mapDispatchToProps } from "./Campaign";
 
 describe("Campaign container", () => {

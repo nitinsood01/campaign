@@ -1,6 +1,7 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import { CampaignTable } from "./CampaignTable.jsx";
+import { filterRecords } from "../../utils/campaign";
 
 describe("Campaign Table display component", () => {
   it("should not regress", () => {
@@ -20,6 +21,7 @@ describe("Campaign Table display component", () => {
         endDate=""
         searchText=""
         records={records}
+        filteredRecords={filterRecords([...records], "", "", "")}
         users={[]}
       />
     );

@@ -36,6 +36,16 @@ describe("Campaign Table", () => {
           userId: 3
         }
       ],
+      filteredRecords: [
+        {
+          id: 1,
+          name: "Divavu",
+          startDate: "09/19/2019",
+          endDate: "03/19/2020",
+          Budget: 88377,
+          userId: 3
+        }
+      ],
       users: [],
       isLoading: true
     };
